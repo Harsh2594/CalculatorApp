@@ -1,1 +1,1 @@
-print("Hello! This is my first Git project.")
+print("Welcome to CalculatorApp v2.0")
