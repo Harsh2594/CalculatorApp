@@ -7,9 +7,8 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    result = a * b
-    print(f"Multiplying {a} and {b}")
-    return result
+    print(f"Feature branch multiplying {a} and {b}")
+    return a * b
 
 def divide(a, b):
     if b == 0:
