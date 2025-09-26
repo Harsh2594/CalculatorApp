@@ -15,8 +15,7 @@ def multiply(a, b):
 def divide(a, b):
     if b == 0:
         return "Cannot divide by zero"
-    result = a / b
-    return round(result, 1)
+    return a / b
 
 if __name__ == "__main__":
     print("Add:", add(10, 5))
