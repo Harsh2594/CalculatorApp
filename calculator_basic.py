@@ -7,7 +7,9 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    return a * b
+    result = a * b
+    print(f"Multiplying {a} and {b}")
+    return result
 
 def divide(a, b):
     if b == 0:
