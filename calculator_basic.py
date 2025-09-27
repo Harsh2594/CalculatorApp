@@ -17,6 +17,12 @@ def divide(a, b):
         return "Cannot divide by zero"
     return a / b
 
+def modulus(a, b):
+    if b == 0:
+        raise ValueError("Cannot modulus by zero")
+    return a % b
+
+
 if __name__ == "__main__":
     print("Add:", add(10, 5))
     print("Subtract:", subtract(10, 5))
