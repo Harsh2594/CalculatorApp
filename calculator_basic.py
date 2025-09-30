@@ -18,7 +18,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        raise ValueError("Division by zero is not allowed")
+        return "Cannot divide by zero"
     return a / b
 
 def modulus(a, b):
