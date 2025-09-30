@@ -44,7 +44,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t calculatorapp:latest .
+          docker build -t CalculatorApp:latest .
 
   fake-deploy:
     runs-on: ubuntu-latest
