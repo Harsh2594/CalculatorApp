@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install -r requirements.txt || true
 
 # Default command
-CMD ["python", "calculator_basic.py"]
+CMD ["python", "main.py"]
